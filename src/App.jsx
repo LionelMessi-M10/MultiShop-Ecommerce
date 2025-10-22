@@ -1,11 +1,17 @@
-import { useState } from 'react';
-import Hello from '@components/Hello/Hello';
+import MainLayout from "@components/Layout/Layout";
+import Header from "@components/Header/Header";
+import Footer from "@components/Footer/Footer";
+import Button from "./components/Button/Button";
 
 function App() {
-  const [name, setName] = useState("Huy");
 
   return <>
-    <Hello />
+    <MainLayout>
+      {/* <Header />
+      Content
+      <Footer /> */}
+      <Button />
+    </MainLayout>    
   </>;
 }
 

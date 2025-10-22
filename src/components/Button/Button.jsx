@@ -1,7 +1,11 @@
+import styles from './style.module.scss';
 
 const Button = () => {
   return (
-    <button>Button</button>
+    <div>
+      <button className={styles.btn}>M</button>
+      <button className={styles.btn2}>X</button>
+    </div>
   )
 }
 
